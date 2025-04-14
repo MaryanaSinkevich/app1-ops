@@ -11,10 +11,11 @@ public class Main {
         //     // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
         //     System.out.println("i = " + i);
 
-        System.out.println("1. Piotr");
-        System.out.println("2. Anna");
-        System.out.println("3. Jan");
-        System.out.println("4. Leszek");
-        
+        String[] imiona = {"Piotr", "Anna", "Jan", "Leszek"};
+    
+        for (int i = 0; i < imiona.length; i++)
+        {
+        System.out.println(i + 1 + ". " + imiona[i]);
+        }
     }
 }
