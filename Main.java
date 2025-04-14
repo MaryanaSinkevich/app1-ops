@@ -15,6 +15,6 @@ public class Main {
         System.out.println("2. Anna");
         System.out.println("3. Jan");
         System.out.println("4. Leszek");
-        }
+        
     }
 }
